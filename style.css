@@ -1,0 +1,106 @@
+/* styling the main div */
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 70%;
+    margin: auto;
+    margin-top: 35px;
+    border-radius: 7px;
+    font-family: "Big Shoulders Display", sans-serif;
+}
+
+img{
+    width: 30%;
+}
+img:hover{
+    /* background-color: black; */
+    overlay: red;
+}
+
+h2{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    line-height: 23px;
+}
+
+button{
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+    width: 110px;
+    border-radius: 25px;
+    outline: none;
+    border: 2px solid hsl(0, 0%, 95%);
+    font-family: "Big Shoulders Display", sans-serif;
+    transition: 0.5s ease-in-out;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+/* styling the first div */
+.first{
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 30px;
+    padding-left: 30px;
+}
+
+.first button{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+}
+
+.first button:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+}
+
+/* styling the second div */
+.second{
+    background-color: hsl(184, 100%, 22%);
+    padding: 25px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.second button{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+}
+
+.second button:hover{
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+}
+
+/* styling the third div */
+.third{
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 25px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.third button{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+}
+
+.third button:hover{
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+}
+
+/* frontendmentor attribution */
+.attribution{
+    margin-top: 20px;
+}
